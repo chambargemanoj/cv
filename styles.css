@@ -1,0 +1,58 @@
+ body {
+   background-color: #f9f6f2;
+ }
+
+ .photo {
+   border-radius: 80%;
+   height: 180px;
+   width: 180px
+ }
+
+ h2 {
+   color: #008B8B;
+   text-transform: uppercase;
+
+
+ }
+ h3 {
+   color: TEAL;
+   text-transform: uppercase;
+ }
+
+ hr {
+   border-style: none;
+   border-top-style:groove;
+   border-color: none;
+   border-width: 1px;
+   width: 100%;
+ }
+.description {
+  color: LIGHTSEAGREEN;
+  font-family: sans-serif;
+font-weight: 200;
+line-height: 2
+}
+.designation {
+  color:blue;
+}
+.experience {
+  color: DARKRED
+}
+.skills {
+  color: DARKRED
+}
+.header {
+  height: 50px;
+  background-image:url("/Users/a6002831/Documents/Development/Web Developer/HTML - Personal Site/header.jpeg");
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+.orderlist {
+  line-height: 2
+}
