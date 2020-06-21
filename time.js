@@ -20,7 +20,7 @@ function headerTime() {
     hour = "Good Morning";
   } else if (hour <17) {
     hour = "Good Afternoon";
-  } else {
+  } else if (hour <24){
     hour = "Good Evening";
   } 
   document.getElementById('time').innerHTML = t + " CST" + "  " + hour
