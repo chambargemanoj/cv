@@ -15,15 +15,14 @@ function headerTime() {
   var d = new Date()
   var t = d.toLocaleTimeString('en-US')
   var hour = d.getHours()
-  if (hour >= 0) {
+  console.log (hour)
+  if (hour <12) {
     hour = "Good Morning";
-  } else if (hour >= 12) {
+  } else if (hour <17) {
     hour = "Good Afternoon";
-  } else if (hour >= 18) {
-    hour = "Good Evening";
   } else {
-    hour = "Invalid time, Something wrong in our code";
-  }
+    hour = "Good Evening";
+  } 
   document.getElementById('time').innerHTML = t + " CST" + "  " + hour
 }
 
